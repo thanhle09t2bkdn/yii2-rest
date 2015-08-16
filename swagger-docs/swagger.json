@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "host": "localhost/yii2-rest/api/web/v1",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/countries": {
+            "get": {
+                "summary": "list countries",
+                "responses": {
+                    "200": {
+                        "description": "A list with products"
+                    },
+                    "default": {
+                        "description": "an \"unexpected\" error"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+
+    }
+}
